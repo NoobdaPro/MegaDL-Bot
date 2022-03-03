@@ -25,7 +25,7 @@ async def help(bot, message, cb=False):
         InlineKeyboardButton(f'🏠 HOME', callback_data='back'),
         InlineKeyboardButton(f'ABOUT 👨', callback_data='about')
         ],[
-        InlineKeyboardButton(f'📦 SOURCE', url='https://github.com/AsmSafone/MegaDL-Bot'),
+        InlineKeyboardButton(f'📦 SOURCE', url='https://Harshu_xD'),
         InlineKeyboardButton(f'CLOSE 🔐', callback_data='close')
         ]]
     reply_markup = InlineKeyboardMarkup(button)
@@ -57,7 +57,7 @@ async def start(bot, message, cb=False):
         InlineKeyboardButton(f'💡 HELP', callback_data='help'),
         InlineKeyboardButton(f'ABOUT 👨', callback_data="about")
         ],[
-        InlineKeyboardButton(f'📦 SOURCE', url='https://github.com/AsmSafone/MegaDL-Bot'),
+        InlineKeyboardButton(f'📦 SOURCE', url='https://t.me/Harshu_xD'),
         InlineKeyboardButton(f'CLOSE 🔐', callback_data="close")
         ]]
     reply_markup = InlineKeyboardMarkup(button)
@@ -87,7 +87,7 @@ async def about(bot, message, cb=False):
         InlineKeyboardButton(f'🏠 HOME', callback_data='back'),
         InlineKeyboardButton(f'HELP 💡', callback_data='help')
         ],[
-        InlineKeyboardButton(f'📦 SOURCE', url='https://github.com/AsmSafone/MegaDL-Bot'),
+        InlineKeyboardButton(f'📦 SOURCE', url='https://t.me/harshu_xd'),
         InlineKeyboardButton(f'CLOSE 🔐', callback_data="close")
         ]]
     reply_markup = InlineKeyboardMarkup(button)
@@ -149,7 +149,7 @@ async def refreshmeh_cb(bot, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🤖 Join Updates Channel 🤖", url=invite_link.invite_link)
+                            InlineKeyboardButton("🤖 Join Updates Channel 🤖", url=https://t.me/StarterChannel)
                         ],
                         [
                             InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
@@ -161,7 +161,7 @@ async def refreshmeh_cb(bot, message):
             return
         except Exception:
             await message.message.edit(
-                text="Something Went Wrong. Contact My [Support Group](https://t.me/AsmSupport).",
+                text="Something Went Wrong. Contact Me [Here](https://t.me/Harshu_xD).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
