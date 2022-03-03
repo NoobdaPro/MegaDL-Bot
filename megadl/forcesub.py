@@ -32,7 +32,7 @@ async def handle_force_subscribe(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel 🤖", url=https://t.me/Harshu_xD)
+                        InlineKeyboardButton("🤖 Join Updates Channel 🤖", url=invite_link.invite_link)
                     ],
                     [
                         InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
